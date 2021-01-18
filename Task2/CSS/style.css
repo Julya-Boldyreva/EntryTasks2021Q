@@ -1,0 +1,72 @@
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body{
+	font-family: roboto;
+}
+
+
+.form{
+	/*padding: 10px 0;*/
+	width: 400px;
+	height: 448px;
+	padding: 20px;
+
+	background: #9C9C9C;
+	border: 2px solid #626262;
+	box-sizing: border-box;
+
+	border-radius: 3px;
+}
+h1{
+	margin: 0;
+	/*text-align: center;*/
+}
+fieldset{
+	border-top: 1px solid #C4C4C4;
+	border-bottom: 1px solid #C4C4C4;
+	border-left: 0;
+	border-right: 0;
+
+	/*line-height: 2;*/
+	/*padding: 20px 0;*/
+}
+form{
+	size: 14px;
+	/*padding: 0 20px; */
+}
+span, input{
+	
+	margin: 10px 0;
+}
+input{
+	border: 1px solid #9C9C9C;
+	box-sizing: border-box;
+	border-radius: 3px;
+	padding: 4pt;
+}
+input[type="password"]{
+	width: 50%;
+}
+button{
+	padding: 8px 12px;
+	margin: 20px 0;
+	width: 95px;
+	height: 32px;
+
+	background: #CCCCCC;
+	border: 0;
+	border-radius: 3px;
+}
+button:hover{
+	background: #616161;
+}
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}

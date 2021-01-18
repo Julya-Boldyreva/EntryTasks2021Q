@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Task 2 - Form | Boldyreva J.J.</title>
+		<link rel="stylesheet" type="text/css" href='CSS/style.css' />
+	</head>
+	<body>
+		<div class="form">
+			<h1>Регистрация</h1>
+			<form method="post">
+				<fieldset>
+					<label>
+						<span id="email">E-mail</span><br />
+						<input type="email" placeholder="example@site.domain" id="email-field" pattern="[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}"/><br />
+					</label>
+					<label>
+						<span id="password" class="left">Пароль</span>
+						<span id="repeatpassword" class="right">Повторите пароль</span><br /><br />
+						<input type="password" placeholder="password" id="password-field" class="left"/>
+						<input type="password" placeholder="password" id="repeatpassword-field" class="right"/>
+					</label>
+					<label>
+						<span id="fio">ФИО</span><br />
+						<input type="text" placeholder="Игорев Игорь Игоревич" id="fio-field" pattern="([А-ЯЁ][а-яё]+[\-\s]?){3,}"/><br />
+					</label>
+					<label>
+						<span id="age">Возраст</span><br />
+						<input type="number" placeholder="18" id="age-field"/><br />
+					</label>
+				</fieldset>
+
+				<button type="submit" class="left">Отправить</button>
+				<button type="cancel" class="right">Отмена</button>
+			</form>
+		</div>	
+	</body>
+</html>
+
